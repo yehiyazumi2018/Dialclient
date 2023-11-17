@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+
+        <TextView
+            android:id="@+id/btnGet"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="GET"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <!-- <TextView
+             android:id="@+id/btnSet"
+             android:layout_width="73dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:onClick="buttonClickEvent"
+             android:text="SET"
+             android:textColor="#fff"
+             android:textSize="20dp" />
+ -->
+
+      <!--  <TextView
+            android:id="@+id/btnlaunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="open app"
+            android:textColor="#fff"
+            android:textSize="20dp" />-->
+
+
+
+        <TextView
+            android:id="@+id/btnPair"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="PAIR"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/btnUnpair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="UNPAIR"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/btnAudioOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="AUDIO ON"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/btnAudioOff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="AUDIO OFF"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/btnwebview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:onClick="buttonClickEvent"
+            android:text="web"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

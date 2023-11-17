@@ -1,0 +1,17 @@
+
+o
+java:S1104"TMake UDP_Data a static final constant or non-public and provide accessors if needed.(µ“÷íùÿÿÿÿ
+I
+java:S1444".Make this "public static UDP_Data" field final(µ“÷íùÿÿÿÿ
+n
+java:S3008"SRename this field "UDP_Data" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ“÷íùÿÿÿÿ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(Š˜¾‰ýÿÿÿÿ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(¥Äíå
+l
+java:S1128"QRemove this unused import 'com.example.dialclient.MainActivity.device_name_Edit'.(Ù§¾·üÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ
+G
+java:S1128",Remove this unused import 'java.sql.Struct'.(Í‘©–ûÿÿÿÿ
